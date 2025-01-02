@@ -1,0 +1,17 @@
+.skills-bg {
+  background: var(--cor-2);
+}
+
+.skills {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.skills h1::before {
+  content: "";
+  display: inline-block;
+  height: 23px;
+  width: 4px;
+  margin-right: 8px;
+  background: var(--cor-5);
+}

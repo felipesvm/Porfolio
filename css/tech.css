@@ -1,0 +1,33 @@
+.tech-stack-bg {
+  background: var(--cor-0);
+}
+
+.tech-stack {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.tech-stack h1 {
+  margin-bottom: 50px;
+}
+
+.tech-stack h1::before {
+  content: "";
+  display: inline-block;
+  height: 23px;
+  width: 4px;
+  margin-right: 8px;
+  background: var(--cor-5);
+}
+
+.tecnologias {
+  display: grid;
+  grid-template-columns: repeat(8, 150px);
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.tecnologias img {
+  width: 60px;
+}
