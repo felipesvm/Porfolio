@@ -24,7 +24,7 @@
 .botao:hover {
   background: #0056a6;
   transform: scale(1.02);
-  transition: 4s;
+  transition: 3s;
 }
 
 .botao.secundario {

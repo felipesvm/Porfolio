@@ -31,3 +31,15 @@
 .tecnologias img {
   width: 60px;
 }
+
+@media (max-width: 800px) {
+  .tecnologias {
+    grid-template-columns: repeat(4, 100px);
+  }
+}
+
+@media (max-width: 600px) {
+  .tecnologias {
+    grid-template-columns: repeat(4, 75px);
+  }
+}

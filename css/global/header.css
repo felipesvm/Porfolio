@@ -66,6 +66,10 @@
   .header-menu a::after {
     display: none;
   }
+
+  .tecnologias {
+    grid-template-columns: repeat(4, 100px);
+  }
 }
 
 @media (max-width: 600px) {
