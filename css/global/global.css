@@ -31,3 +31,53 @@ img {
   height: auto;
   display: block;
 }
+
+.foto-perfil {
+  max-width: 400px;
+  height: 550px;
+  background-image: url(/img/foto-perfil.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  align-self: center;
+  position: relative;
+  animation: subir 1s ease-out forwards; /* Animação que sobe */
+}
+
+.foto-perfil {
+  animation-delay: 0.5s;
+}
+
+@keyframes subir {
+  0% {
+    transform: translateY(100%); /* Começa fora da tela, embaixo */
+  }
+  100% {
+    transform: translateY(0); /* Vai até a posição original */
+  }
+}
+
+.animate__animated.animate__swing {
+  --animate-duration: 4s;
+}
+
+.background-svg {
+  position: absolute;
+  width: 300px;
+  height: 350px;
+  background: url("/img/Vector\ \(1\).svg") no-repeat center;
+  background-size: cover;
+  transform: rotate(90deg);
+  animation: colorChange 5s infinite alternate;
+  left: 550px;
+  top: 30px;
+}
+
+@keyframes colorChange {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}

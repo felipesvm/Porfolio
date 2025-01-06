@@ -26,6 +26,9 @@
   opacity: 0.8;
   transform: scale(0.8);
   transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .slide li.active {
@@ -43,8 +46,15 @@
 
 .custom-controls li {
   opacity: 0.8;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;
   transform: scale(0.8);
   width: 40px;
+  background: #fff;
+  color: var(--cor-0);
+  font-weight: 700;
+  text-align: center;
   height: 40px;
   border-radius: 50%;
   overflow: hidden;
@@ -82,24 +92,22 @@
 
 .slide-tecnologias {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 .slide-tecnologias img {
-  width: 30px;
+  width: 35px;
 }
 
 .tecnologias-utilizadas {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .bg-slide {
   background: var(--cor-2);
   padding: 50px;
-  display: flex;
-  gap: 30px;
   border-radius: 20px;
 }
 
@@ -110,5 +118,35 @@
 .resumo-projeto {
   display: flex;
   flex-direction: column;
+  gap: 20px;
   justify-content: space-between;
+}
+
+.resumo-projeto p {
+  font-size: 16px;
+}
+
+.tecnologias-utilizadas span {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.flex-slide {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .tecnologias-utilizadas > span {
+    font-size: 14px;
+  }
+
+  .slide-tecnologias img {
+    width: 30px;
+  }
+  .tecnologias-utilizadas {
+    flex-direction: column;
+    align-items: start;
+  }
 }

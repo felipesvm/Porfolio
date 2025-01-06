@@ -10,3 +10,12 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.projects h1::before {
+  content: "";
+  display: inline-block;
+  height: 23px;
+  width: 4px;
+  margin-right: 8px;
+  background: var(--cor-5);
+}

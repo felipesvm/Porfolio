@@ -1,11 +1,13 @@
 .introducao-bg {
   background: var(--cor-2);
+  position: relative;
 }
 
 .introducao {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 400px;
   gap: 0px 40px;
+  position: relative;
 }
 
 .introducao img {
@@ -16,9 +18,14 @@
 .introducao-conteudo {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   margin-top: 50px;
   margin-bottom: 50px;
+  align-self: center;
+}
+
+.introducao-conteudo p {
+  max-width: 50ch;
 }
 
 .introducao h1 {
@@ -31,8 +38,6 @@
 
 .name {
   display: inline-block;
-  transform: translateY(-200px);
-  animation: scaleUp 4s ease forwards;
 }
 
 @keyframes scaleUp {
@@ -44,20 +49,10 @@
   }
 }
 
-.card {
-  padding: 15px;
-  width: max-content;
-  background: #1c1c1c;
-  border-radius: 20px;
-}
-
-.card:hover {
-  transform: rotate(360deg);
-  animation-iteration-count: infinite;
-  transition: 4s;
-}
-
 @media (max-width: 800px) {
+  .background-svg {
+    display: none;
+  }
   .introducao {
     padding-top: 40px;
     background: var(--cor-11);

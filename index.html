@@ -6,17 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Felipe Santos - Porfólio</title>
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <script>document.documentElement.className += ' js';</script>
 </head>
 
-<body>
+<body">
   <header class="header-bg">
     <div class="header container">
       <a href="./">
-        <img src="./img/FELIπ.svg" alt="Felipe - Logo" width="136" height="32">
+        <img src="./img/FELIπ.svg" alt="Felipe - Logo" width="136" height="32" class="animate__animated animate__lightSpeedInRight">
       </a>
       <nav aria-label="primaria">
         <ul class="header-menu font-1-m cor-5">
@@ -31,21 +32,55 @@
   <section class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-3">Olá👋! <br> Meu nome é <span class="cor-p1 name">FELIPE</span>.</h1>
-        <h3 class="font-2-l cor-4">DESENVOLVEDOR</h3>
-        <p class="font-1-s cor-7">Estudante de Engenharia de Controle e Automação. Desenvolvo aplicações webs e aplicativos com diferentes tecnologias. </p>
-        <a class="botao" href="./bicicletas.html">federt49@gmail.com</a>
+        <h1 class="font-1-xxl cor-3">Olá👋! <br> Meu nome é <span class="cor-p1 name animate__animated animate__bounceInDown">FELIPE</span>.</h1>
+        <h3 class="font-2-l cor-4 animate__animated animate__lightSpeedInRight">CIÊNCIA DE DADOS</h3>
+        <p class="font-1-s cor-7 animate__animated animate__lightSpeedInRight">Estudante de Engenharia de Controle e Automação com forte interesse na área de ciência de dados, machine learning, deep learning e visão computacional. </p>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=felipesantos200223@gmail.com" target="_blank" class="botao animate__animated animate__lightSpeedInRight">Enviar E-mail</a>
       </div>
-      <picture>
-
-      </picture>
+      <div class="foto-perfil"></div>
     </div>
   </section>
   <section class="tech-stack-bg">
     <div class="container tech-stack">
       <h1 class="cor-7">MY TECH STACK:</h1>
       <div class="tecnologias">
+        <div class="card animate__animated animate__pulse">
+          <img src="/img/tecnologias/microsoft-excel-icon.svg" alt="HTML">
+        </div>
+        <div class="card animate__animated animate__pulse">
+          <img src="/img/64px-New_Power_BI_Logo.svg.png" alt="HTML">
+        </div>
         <div class="card">
+          <img src="/img/tecnologias/python.svg" alt="Python">
+        </div>
+        <div class="card animate__animated animate__pulse">
+          <img src="/img/tecnologias/RStudio.svg" alt="HTML">
+        </div>
+        <div class="card animate__animated animate__pulse">
+          <img src="/img/tecnologias/sql-database-generic-svgrepo-com.svg" alt="HTML">
+        </div>
+        <div class="card">
+          <img src="/img/tecnologias/postgresql.svg" alt="PosgreSQL">
+        </div>
+
+        <div class="card animate__animated animate__pulse">
+          <img src="/img/tecnologias/tableau-icon-svgrepo-com.svg" alt="HTML">
+        </div>
+
+        <div class="card animate__animated animate__pulse">
+          <img src="/img/tecnologias/google-data-studio.svg" alt="HTML">
+        </div>
+
+        <div class="card">
+          <img src="/img/tecnologias/Apache Airflow.svg" alt="Python">
+        </div>
+        <div class="card">
+          <img src="/img/tecnologias/databricks_logo_icon_170295.svg" alt="Python">
+        </div>
+        <div class="card">
+          <img src="/img/tecnologias/hadoop.svg" alt="Python">
+        </div>
+        <div class="card animate__animated animate__pulse">
           <img src="/img/tecnologias/html.svg" alt="HTML">
         </div>
         <div class="card">
@@ -69,29 +104,12 @@
         <div class="card">
           <img src="/img/tecnologias/docker.svg" alt="Docker">
         </div>
+
         <div class="card">
-          <img src="/img/tecnologias/c++.svg" alt="C++">
+          <img src="/img/tecnologias/Group 12.svg" alt="C#">
         </div>
         <div class="card">
-          <img src="/img/tecnologias/csharp.svg" alt="C#">
-        </div>
-        <div class="card">
-          <img src="/img/tecnologias/java.svg" alt="Java">
-        </div>
-        <div class="card">
-          <img src="/img/tecnologias/kotlin.svg" alt="Kotlin">
-        </div>
-        <div class="card">
-          <img src="/img/tecnologias/Firebase.svg" alt="Firebase">
-        </div>
-        <div class="card">
-          <img src="/img/tecnologias/postgresql.svg" alt="PosgreSQL">
-        </div>
-        <div class="card">
-          <img src="/img/tecnologias/spring.svg" alt="SpringBoot">
-        </div>
-        <div class="card">
-          <img src="/img/tecnologias/python.svg" alt="Python">
+          <img src="/img/tecnologias/NET core.svg" alt="C#">
         </div>
       </div>
     </div>
@@ -102,19 +120,26 @@
       <h1 class="cor-7">PRINCIPAIS HABILIDADES:</h1>
       <div>
         <div class="skills-item">
-          <img src="" alt="">
-          <h3></h3>
-          <p></p>
+          <div class="title-icon">
+            <img src="/img/ciencia-de-dados.png" alt="" width="32px" height="32px">
+            <h3>Ciência de Dados</h3>
+          </div>
+          <p>Possuo conhecimento em ciência de dados, incluindo análise exploratória, limpeza e transformação de dados, além de modelagem preditiva. Tenho experiência com bibliotecas e ferramentas como <strong> Pandas</strong>,<strong>NumPy</strong>,<strong>Matplotlib</strong> e <strong>Scikit-learn</strong>, aplicando técnicas de aprendizado de máquina para extrair insights e criar soluções baseadas em dados. </p>
         </div>
         <div class="skills-item">
-          <img src="" alt="">
-          <h3></h3>
-          <p></p>
+          <div class="title-icon">
+            <img src="/img/visao.png" alt="">
+            <h3>Visão Computacional</h3>
+          </div>
+          <p>Tenho experiência em visão computacional, aplicando técnicas para processamento e análise de imagens. Utilizo bibliotecas como <strong>OpenCV</strong> e <strong>TensorFlow</strong> para desenvolver soluções que envolvem detecção de objetos, reconhecimento de padrões e segmentação de imagens. Minha abordagem combina algoritmos tradicionais e <strong>redes neurais convolucionais (CNNs)</strong> para resolver problemas complexos e extrair informações relevantes a partir de dados visuais.</p>
         </div>
         <div class="skills-item">
-          <img src="" alt="">
-          <h3></h3>
-          <p></p>
+          <div class="title-icon">
+            <img src="/img/desenvolvimento-web.png" alt="">
+            <h3>Desenvolvimento Web</h3>
+          </div>
+          <p>
+            Tenho habilidades em <strong>desenvolvimento web</strong>, criando aplicações modernas e responsivas utilizando <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Também possuo experiência com frameworks como <strong>React</strong> e <strong>Next</strong> para otimizar o design e a usabilidade. No lado do servidor, utilizo <strong>C#</strong> juntamente com o framework <strong>.NET</strong> para construir APIs eficientes e escaláveis. Estou familiarizado com integração de bancos de dados e ferramentas como <strong>MongoDB</strong> e <strong>MySQL</strong>, além de práticas de </strong>versionamento de código</strong> com <strong>Git</strong> e <strong>GitHub</strong>.</p>
         </div>
       </div>
     </div>
@@ -124,38 +149,162 @@
     <div class="projects galeria" data-anime="scroll">
       <h1 class="cor-7 container"> EXPLORE ALGUNS PROJETOS QUE JÁ DESENLVOLVI:</h1>
       <ul class="custom-controls">
-        <li><img src="img/slide/teste.jpg" alt=""></li>
-        <li><img src="img/slide/teste2.jpg" alt=""></li>
-        <li><img src="img/tecnologias/Firebase.svg" alt=""></li>
-        <li><img src="img/tecnologias/Firebase.svg" alt=""></li>
-        <li><img src="img/tecnologias/Firebase.svg" alt=""></li>
-        <li><img src="img/tecnologias/Firebase.svg" alt=""></li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
 
       </ul>
       <div class="slide-wrapper">
         <ul class="slide">
           <li>
             <div class="bg-slide">
-              <img src="/img/slide/bikcraft.jpg" alt="">
               <div class="resumo-projeto">
-                <h2 class="cor-5 .font-1-xs">BIKCRAFT</h2>
-                <p class="cor-3 font-2-xs">Projeto desenvolvido durante o curso de HTML, CSS e Javascript. O projeto consiste em um site de vendas de bicicletas, totalmente responsivo.</p>
+                <div class="flex-slide">
+                  <h2 class="cor-5 .font-1-xs">KDD CUP 2009</h2>
+                  <img src="/img/slide-icon-title/trofeu.png" alt="">
+                </div>
+                <p class="cor-3 font-2-xs">Nesse projeto, foi desenvolvido um modelo para predição de churn, appetency e upselling com base nos dados fornecidos pelos clientes da Orange. O critério para avaliação do modelo foi a métrica AUC, que mede o trade-off entre a taxa de falsos positivos e a taxa de verdadeiros positivos: quanto mais próximo de 1, menor o trade-off e melhor o desempenho do modelo.</p>
                 <div class="tecnologias-utilizadas">
                   <span class="cor-4">Tecnologias utilizadas:</span>
                   <div class="slide-tecnologias">
-                    <img src="/img/tecnologias/html.svg" alt="HTML">
-                    <img src="/img/tecnologias/css.svg" alt="CSS">
-                    <img src="/img/tecnologias/javascript.svg" alt="Javascript">
-                    <img src="/img/tecnologias/git.svg" alt="Git">
+                    <img src="/img/projetos-icon/numpy-svgrepo-com.svg" alt="Numpy">
+                    <img src="/img/projetos-icon/Pandas.svg" alt="Pandas">
+                    <img src="/img/projetos-icon/Matplotlib_icon.svg" alt="Matplotlib">
+                    <img src="/img/projetos-icon/scikit-learn.svg" alt="Scikit-learn">
                   </div>
                 </div>
-                <a href="" class="botao">Preview live</a>
+                <a href="/projetos/KDD_Cup_2009.html" class="botao">Preview live</a>
               </div>
             </div>
           </li>
           <li>
             <div class="bg-slide">
-              <img src="/img/slide/animais.jpg" alt="">
+              <div class="resumo-projeto">
+                <div class="flex-slide">
+                  <h2 class="cor-5 .font-1-xs">Análise de Dados do Facebook</h2>
+                  <img src="/img/slide-icon-title/32px-2023_Facebook_icon.svg.png" alt="">
+                </div>
+                <p class="cor-3 font-2-xs">Este projeto tem como objetivo explorar e analisar dados do Facebook para identificar tendências, padrões de comportamento e métricas relevantes de engajamento. Utilizando ferramentas de análise de dados e visualização, como Python (Pandas, Matplotlib e Seaborn), foram processados e interpretados dados relacionados a curtidas, comentários, compartilhamentos e alcance de publicações.</p>
+                <div class="tecnologias-utilizadas">
+                  <span class="cor-4">Tecnologias utilizadas:</span>
+                  <div class="slide-tecnologias">
+                    <img src="/img/projetos-icon/numpy-svgrepo-com.svg" alt="Numpy">
+                    <img src="/img/projetos-icon/Pandas.svg" alt="Pandas">
+                    <img src="/img/projetos-icon/Matplotlib_icon.svg" alt="Matplotlib">
+                    <img src="/img/projetos-icon/seaborn-1.svg" alt="Seaborn">
+                    <img src="/img/projetos-icon/scikit-learn.svg" alt="Scikit-learn">
+                  </div>
+                </div>
+                <a href="/projetos/Mineração_e_Análise_de_Dados_do_Facebook.html" class="botao">Preview live</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="bg-slide">
+              <div class="resumo-projeto">
+                <div class="flex-slide">
+                  <h2 class="cor-5 .font-1-xs">Análise de Dados do Linkedin</h2>
+                  <img src="/img/slide-icon-title/LinkedIn_icon.svg" alt="" width="32px" height="32px">
+                </div>
+
+                <p class="cor-3 font-2-xs">Este projeto teve como foco a análise de dados da plataforma LinkedIn para entender padrões de engajamento, crescimento de rede e desempenho de publicações. Utilizando ferramentas de análise e visualização de dados, foram extraídas e processadas informações sobre curtidas, compartilhamentos, comentários e conexões.</p>
+                <div class="tecnologias-utilizadas">
+                  <span class="cor-4">Tecnologias utilizadas:</span>
+                  <div class="slide-tecnologias">
+                    <img src="/img/projetos-icon/numpy-svgrepo-com.svg" alt="Numpy">
+                    <img src="/img/projetos-icon/Pandas.svg" alt="Pandas">
+                    <img src="/img/projetos-icon/Matplotlib_icon.svg" alt="Matplotlib">
+                    <img src="/img/projetos-icon/seaborn-1.svg" alt="Seaborn">
+                    <img src="/img/projetos-icon/scikit-learn.svg" alt="Scikit-learn">
+                  </div>
+                </div>
+                <a href="/projetos/Mineração_e_Análise_de_Dados_do_LinkedIn.html" class="botao">Preview live</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="bg-slide">
+              <div class="resumo-projeto">
+                <h2 class="cor-5 .font-1-xs">FIFA 2019</h2>
+                <p class="cor-3 font-2-xs">Este projeto teve como foco a análise de dados da plataforma LinkedIn para entender padrões de engajamento, crescimento de rede e desempenho de publicações. Utilizando ferramentas de análise e visualização de dados, foram extraídas e processadas informações sobre curtidas, compartilhamentos, comentários e conexões.</p>
+                <div class="tecnologias-utilizadas">
+                  <span class="cor-4">Tecnologias utilizadas:</span>
+                  <div class="slide-tecnologias">
+                    <img src="/img/projetos-icon/numpy-svgrepo-com.svg" alt="Numpy">
+                    <img src="/img/projetos-icon/Pandas.svg" alt="Pandas">
+                    <img src="/img/projetos-icon/Matplotlib_icon.svg" alt="Matplotlib">
+                    <img src="/img/projetos-icon/seaborn-1.svg" alt="Seaborn">
+                    <img src="/img/projetos-icon/scikit-learn.svg" alt="Scikit-learn">
+                  </div>
+                </div>
+                <a href="/projetos/Agrupamento_FIFA_2019.html" class="botao">Preview live</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="bg-slide">
+              <div class="resumo-projeto">
+                <h2 class="cor-5 .font-1-xs">Departamento de Vendas</h2>
+                <p class="cor-3 font-2-xs">Este projeto teve como foco a análise de dados da plataforma LinkedIn para entender padrões de engajamento, crescimento de rede e desempenho de publicações. Utilizando ferramentas de análise e visualização de dados, foram extraídas e processadas informações sobre curtidas, compartilhamentos, comentários e conexões.</p>
+                <div class="tecnologias-utilizadas">
+                  <span class="cor-4">Tecnologias utilizadas:</span>
+                  <div class="slide-tecnologias">
+                    <img src="/img/projetos-icon/numpy-svgrepo-com.svg" alt="Numpy">
+                    <img src="/img/projetos-icon/Pandas.svg" alt="Pandas">
+                    <img src="/img/projetos-icon/Matplotlib_icon.svg" alt="Matplotlib">
+                    <img src="/img/projetos-icon/seaborn-1.svg" alt="Seaborn">
+                    <img src="/img/projetos-icon/scikit-learn.svg" alt="Scikit-learn">
+                  </div>
+                </div>
+                <a href="/projetos/Departamento_de_Vendas (1).html" class="botao">Preview live</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="bg-slide">
+              <div class="resumo-projeto">
+                <h2 class="cor-5 .font-1-xs">Departamento de Recursos Humanos</h2>
+                <p class="cor-3 font-2-xs">Este projeto teve como foco a análise de dados da plataforma LinkedIn para entender padrões de engajamento, crescimento de rede e desempenho de publicações. Utilizando ferramentas de análise e visualização de dados, foram extraídas e processadas informações sobre curtidas, compartilhamentos, comentários e conexões.</p>
+                <div class="tecnologias-utilizadas">
+                  <span class="cor-4">Tecnologias utilizadas:</span>
+                  <div class="slide-tecnologias">
+                    <img src="/img/projetos-icon/numpy-svgrepo-com.svg" alt="Numpy">
+                    <img src="/img/projetos-icon/Pandas.svg" alt="Pandas">
+                    <img src="/img/projetos-icon/Matplotlib_icon.svg" alt="Matplotlib">
+                    <img src="/img/projetos-icon/seaborn-1.svg" alt="Seaborn">
+                    <img src="/img/projetos-icon/scikit-learn.svg" alt="Scikit-learn">
+                  </div>
+                </div>
+                <a href="/projetos/Departamento_de_Recursos_Humanos (1).html" class="botao">Preview live</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="bg-slide">
+              <div class="resumo-projeto">
+                <h2 class="cor-5 .font-1-xs">Departamento de Produção</h2>
+                <p class="cor-3 font-2-xs">Este projeto teve como foco a análise de dados da plataforma LinkedIn para entender padrões de engajamento, crescimento de rede e desempenho de publicações. Utilizando ferramentas de análise e visualização de dados, foram extraídas e processadas informações sobre curtidas, compartilhamentos, comentários e conexões.</p>
+                <div class="tecnologias-utilizadas">
+                  <span class="cor-4">Tecnologias utilizadas:</span>
+                  <div class="slide-tecnologias">
+                    <img src="/img/projetos-icon/numpy-svgrepo-com.svg" alt="Numpy">
+                    <img src="/img/projetos-icon/Pandas.svg" alt="Pandas">
+                    <img src="/img/projetos-icon/Matplotlib_icon.svg" alt="Matplotlib">
+                    <img src="/img/projetos-icon/seaborn-1.svg" alt="Seaborn">
+                    <img src="/img/projetos-icon/scikit-learn.svg" alt="Scikit-learn">
+                  </div>
+                </div>
+                <a href="/projetos/Departamento_de_Produção_e_Manutenção.html" class="botao">Preview live</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="bg-slide">
               <div class="resumo-projeto">
                 <h2 class="cor-5 .font-1-xs">ANIMAIS FANTÁSTICOS</h2>
                 <p class="cor-3 font-2-xs">Projeto desenvolvido durante o curso de Javascript. O projeto consiste em um site de apresentação de animais. Na construção desse site foi explorado diversos recursos da linguagem, como manipulação do DOM, Fetch API, entre outros.</p>
@@ -216,6 +365,6 @@
 
 
   <script src="/js/script.js" type="module"></script>
-</body>
+  </body>
 
 </html>
