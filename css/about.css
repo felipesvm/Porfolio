@@ -38,15 +38,31 @@
 
 .name {
   display: inline-block;
+  font-family: "Protest Guerrilla", serif;
+  color: #3e92e0;
 }
 
-@keyframes scaleUp {
-  from {
-    transform: translateY(-200px);
-  }
-  to {
-    transform: translateY(0px);
-  }
+.foto-perfil {
+  max-width: 400px;
+  height: 550px;
+  background-image: url(/img/foto-perfil.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  align-self: center;
+  position: relative;
+}
+
+.foto-perfil {
+  animation-delay: 0.5s;
+}
+
+.flex-btn {
+  display: flex !important;
+  gap: 20px;
+
+  color: aqua;
+  align-items: center;
 }
 
 @media (max-width: 800px) {
@@ -70,5 +86,17 @@
   }
   .introducao img {
     width: 100%;
+  }
+
+  .flex-btn {
+    gap: 10px;
+  }
+
+  .flex-btn img {
+    width: 20px;
+  }
+
+  .foto-perfil {
+    align-self: center;
   }
 }

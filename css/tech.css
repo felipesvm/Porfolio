@@ -17,7 +17,7 @@
   height: 23px;
   width: 4px;
   margin-right: 8px;
-  background: var(--cor-5);
+  background: #3e92e0;
 }
 
 .tecnologias {
@@ -51,6 +51,11 @@
 @media (max-width: 800px) {
   .tecnologias {
     grid-template-columns: repeat(4, 100px);
+  }
+
+  .card {
+    width: 50px;
+    height: 50px;
   }
 }
 

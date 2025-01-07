@@ -9,38 +9,41 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <script>document.documentElement.className += ' js';</script>
 </head>
 
-<body">
+<body>
   <header class="header-bg">
     <div class="header container">
       <a href="./">
-        <img src="./img/FELIπ.svg" alt="Felipe - Logo" width="136" height="32" class="animate__animated animate__lightSpeedInRight">
+        <img src="./img/FELIπ.svg" alt="Felipe - Logo" width="136" height="32">
       </a>
       <nav aria-label="primaria">
         <ul class="header-menu font-1-m cor-5">
-          <li><a href="./bicicletas.html">Home</a></li>
-          <li><a href="./seguros.html">About</a></li>
-          <li><a href="./contato.html">Tech Stack</a></li>
-          <li><a href="./contato.html">Contact</a></li>
+          <li><a href="#Projetos">Projetos</a></li>
+          <li><a href="#Sobre">Sobre</a></li>
+          <li><a href="#Tech-stack">Tech Stack</a></li>
+          <li><a href="#Contato">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <section class="introducao-bg">
+  <section class="introducao-bg animate__animated animate__fadeInLeft" id="Sobre">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-3">Olá👋! <br> Meu nome é <span class="cor-p1 name animate__animated animate__bounceInDown">FELIPE</span>.</h1>
-        <h3 class="font-2-l cor-4 animate__animated animate__lightSpeedInRight">CIÊNCIA DE DADOS</h3>
-        <p class="font-1-s cor-7 animate__animated animate__lightSpeedInRight">Estudante de Engenharia de Controle e Automação com forte interesse na área de ciência de dados, machine learning, deep learning e visão computacional. </p>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=felipesantos200223@gmail.com" target="_blank" class="botao animate__animated animate__lightSpeedInRight">Enviar E-mail</a>
+        <h1 class="font-1-xxl cor-3">Olá👋! <br> Meu nome é <span class="cor-p1 name">FELIPE</span>.</h1>
+        <h3 class="fonte-profissao cor-4 ">Software Engineer and Data Scientist</h3>
+        <p class="font-1-s cor-7">Estudante de Engenharia de Controle e Automação com forte interesse na área de ciência de dados, machine learning, deep learning, visão computacional e desenvolvimento de software. </p>
+        <div class="botao flex-btn">
+          <img src="/img/icon-email.svg" alt="">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=felipesantos200223@gmail.com" target="_blank">Enviar E-mail</a>
+        </div>
       </div>
       <div class="foto-perfil"></div>
     </div>
   </section>
-  <section class="tech-stack-bg">
+  <section class="tech-stack-bg animate__animated animate__fadeInLeft" id="Tech-stack">
     <div class="container tech-stack">
       <h1 class="cor-7">MY TECH STACK:</h1>
       <div class="tecnologias">
@@ -145,8 +148,8 @@
     </div>
   </section>
 
-  <section class="projects-bg">
-    <div class="projects galeria" data-anime="scroll">
+  <section class="projects-bg" id="Projetos">
+    <div class="projects galeria">
       <h1 class="cor-7 container"> EXPLORE ALGUNS PROJETOS QUE JÁ DESENLVOLVI:</h1>
       <ul class="custom-controls">
         <li>1</li>
@@ -230,8 +233,11 @@
           <li>
             <div class="bg-slide">
               <div class="resumo-projeto">
-                <h2 class="cor-5 .font-1-xs">FIFA 2019</h2>
-                <p class="cor-3 font-2-xs">Este projeto teve como foco a análise de dados da plataforma LinkedIn para entender padrões de engajamento, crescimento de rede e desempenho de publicações. Utilizando ferramentas de análise e visualização de dados, foram extraídas e processadas informações sobre curtidas, compartilhamentos, comentários e conexões.</p>
+                <div class="flex-slide">
+                  <h2 class="cor-5 .font-1-xs">FIFA 2019</h2>
+                  <img src="/img/slide-icon-title/bola-de-futebol (1).png" alt="">
+                </div>
+                <p class="cor-3 font-2-xs">Este projeto teve como objetivo analisar dados de jogadores do FIFA 19 para agrupá-los em perfis técnicos com base em suas características físicas (altura e peso) e habilidades técnicas. A proposta foi investigar como esses perfis se relacionam com as posições originais dos jogadores em campo, identificando padrões e tendências.</p>
                 <div class="tecnologias-utilizadas">
                   <span class="cor-4">Tecnologias utilizadas:</span>
                   <div class="slide-tecnologias">
@@ -249,7 +255,10 @@
           <li>
             <div class="bg-slide">
               <div class="resumo-projeto">
-                <h2 class="cor-5 .font-1-xs">Departamento de Vendas</h2>
+                <div class="flex-slide">
+                  <h2 class="cor-5 .font-1-xs">Departamento de Vendas</h2>
+                  <img src="/img/slide-icon-title/vendas.png" alt="">
+                </div>
                 <p class="cor-3 font-2-xs">Este projeto teve como foco a análise de dados da plataforma LinkedIn para entender padrões de engajamento, crescimento de rede e desempenho de publicações. Utilizando ferramentas de análise e visualização de dados, foram extraídas e processadas informações sobre curtidas, compartilhamentos, comentários e conexões.</p>
                 <div class="tecnologias-utilizadas">
                   <span class="cor-4">Tecnologias utilizadas:</span>
@@ -268,7 +277,10 @@
           <li>
             <div class="bg-slide">
               <div class="resumo-projeto">
-                <h2 class="cor-5 .font-1-xs">Departamento de Recursos Humanos</h2>
+                <div class="flex-slide">
+                  <h2 class="cor-5 .font-1-xs">Departamento de Recursos Humanos</h2>
+                  <img src="/img/slide-icon-title/recursos-humanos.png" alt="">
+                </div>
                 <p class="cor-3 font-2-xs">Este projeto teve como foco a análise de dados da plataforma LinkedIn para entender padrões de engajamento, crescimento de rede e desempenho de publicações. Utilizando ferramentas de análise e visualização de dados, foram extraídas e processadas informações sobre curtidas, compartilhamentos, comentários e conexões.</p>
                 <div class="tecnologias-utilizadas">
                   <span class="cor-4">Tecnologias utilizadas:</span>
@@ -287,7 +299,10 @@
           <li>
             <div class="bg-slide">
               <div class="resumo-projeto">
-                <h2 class="cor-5 .font-1-xs">Departamento de Produção</h2>
+                <div class="flex-slide">
+                  <h2 class="cor-5 .font-1-xs">Departamento de Produção</h2>
+                  <img src="/img/slide-icon-title/producao.png" alt="">
+                </div>
                 <p class="cor-3 font-2-xs">Este projeto teve como foco a análise de dados da plataforma LinkedIn para entender padrões de engajamento, crescimento de rede e desempenho de publicações. Utilizando ferramentas de análise e visualização de dados, foram extraídas e processadas informações sobre curtidas, compartilhamentos, comentários e conexões.</p>
                 <div class="tecnologias-utilizadas">
                   <span class="cor-4">Tecnologias utilizadas:</span>
@@ -331,7 +346,7 @@
 
 
 
-  <footer class="footer-bg">
+  <footer class="footer-bg" id="Contato">
     <div class="footer container">
       <img src="./img/FELIπ.svg" alt="Logo" width="136" height="32">
       <div class="footer-contato">
@@ -344,17 +359,14 @@
         </ul>
         <div class="footer-redes">
           <a href="./"><img src="./img/redes/git.svg" alt="Git" width="32" height="32"></a>
-          <a href="./"><img src="./img/redes/linkedin.svg" alt="Facebook" width="32" height="32"></a>
-          <a href="./"><img src="./img/redes/linkedin.svg" alt="Twitter" width="32" height="32"></a>
+          <a href="https://www.linkedin.com/in/felipe-santos-993b9a180/"><img src="./img/redes/linkedin.svg" alt="Facebook" width="32" height="32"></a>
+
         </div>
       </div>
       <div class="footer-informacoes">
         <h3 class="font-2-l-b cor-5">Informações</h3>
         <nav>
           <ul class="font-1-m cor-4">
-            <li><a href="./bicicletas.html"></a></li>
-            <li><a href="./seguros.html"></a></li>
-            <li><a href="./contato.html"></a></li>
             <li><a href="./termos.html">Termos e Condições</a></li>
           </ul>
         </nav>
@@ -365,6 +377,6 @@
 
 
   <script src="/js/script.js" type="module"></script>
-  </body>
+</body>
 
 </html>
