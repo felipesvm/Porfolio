@@ -23,12 +23,7 @@
   gap: 40px;
 }
 
-/* Alternativa, falta de suporte do gap flex */
-/* .header-menu li + li {
-  margin-left: 40px;
-} */
-
-.header-menu a {
+.header-menu li a {
   display: inline-block;
   padding: 16px 0;
   position: relative;
@@ -39,7 +34,7 @@
   display: block;
   height: 2px;
   width: 0px;
-  background: var(--cor-0);
+  background: #3e92e0;
   position: absolute;
   margin-top: 4px;
   transition: 0.3s;
@@ -55,7 +50,7 @@
     gap: 20px;
   }
   .header-menu a {
-    background: var(--cor-11);
+    background: var(--cor-0);
     padding: 12px 16px;
     border-radius: 4px;
   }
